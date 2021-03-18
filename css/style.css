@@ -1,5 +1,14 @@
 /* debug */
 
+/* #pink {
+    height: 80px;
+    background-color: #E579E6;
+}
+
+#yellow {
+    height: 200px;
+    background-color: #E1D67A;
+} */
 /* /debug */
 
 /* common */
@@ -11,5 +20,23 @@
 }
 
 /* header */
+
+#pink {
+    height: 80px;
+    margin-top: 10px;
+    background-color: #E579E6;
+}
+
+#yellow {
+    height: 200px;
+    margin-top: 10px;
+    background-color: #E1D67A;
+}
+
+header {
+    margin:0 auto;
+    width: 70%;
+}
+
 /* main */
 /* footer */
