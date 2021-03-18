@@ -56,12 +56,17 @@
 
 .blu-box {
     height: 500px;
-    margin-bottom:10px ;
+    margin-bottom:15px ;
     background-color: #ABCFE7;
     float: left;
 }
 
 /* header */
+
+header {
+    margin:0 auto;
+    width: 70%;
+}
 
 #pink {
     height: 80px;
@@ -71,11 +76,6 @@
 #yellow {
     height: 200px;
     background-color: #E1D67A;
-}
-
-header {
-    margin:0 auto;
-    width: 70%;
 }
 
 /* main */
@@ -110,3 +110,11 @@ main{
 
 /* footer */
 
+footer {
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #8801FE;
+}
