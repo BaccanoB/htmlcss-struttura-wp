@@ -9,6 +9,37 @@
     height: 200px;
     background-color: #E1D67A;
 } */
+
+/* #top {
+    height: 60px;
+    background-color: #ABCFE7;
+    margin-bottom: 15px;
+}
+
+#left {
+    width: 23%;
+    height: 500px;
+    margin-bottom: 10px;
+    background-color: #ABCFE7 ;
+    float: left;
+}
+
+#right {
+    width: 23%;
+    height: 500px;
+    margin-bottom: 10px;
+    background-color: #ABCFE7 ;
+    float: left;
+}
+
+#centre {
+    width: 50%;
+    height: 500px;
+    margin: 0 2%;
+    background-color: #ABCFE7;
+    float: left;
+} */
+
 /* /debug */
 
 /* common */
@@ -19,17 +50,26 @@
     padding: 0;
 }
 
+#pink , #yellow {
+    margin-top: 10px;
+}
+
+.blu-box {
+    height: 500px;
+    margin-bottom:10px ;
+    background-color: #ABCFE7;
+    float: left;
+}
+
 /* header */
 
 #pink {
     height: 80px;
-    margin-top: 10px;
     background-color: #E579E6;
 }
 
 #yellow {
     height: 200px;
-    margin-top: 10px;
     background-color: #E1D67A;
 }
 
@@ -39,4 +79,34 @@ header {
 }
 
 /* main */
+
+main::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+main{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 10px;
+    background-color: #008AFE;
+}
+
+#top {
+    height: 60px;
+    background-color: #ABCFE7;
+    margin-bottom: 15px;
+}
+
+#left , #right {
+    width: 23%;
+}
+
+#centre {
+    width: 50%;
+    margin: 0 2%; 
+}
+
 /* footer */
+
