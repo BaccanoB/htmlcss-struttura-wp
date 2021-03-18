@@ -61,12 +61,14 @@
     float: left;
 }
 
-/* header */
+/* container */
 
-header {
+.container {
     margin:0 auto;
     width: 70%;
 }
+
+/* header */
 
 #pink {
     height: 80px;
@@ -87,8 +89,6 @@ main::after {
 }
 
 main{
-    margin: 0 auto;
-    width: 70%;
     margin-top: 10px;
     background-color: #008AFE;
 }
@@ -111,9 +111,7 @@ main{
 /* footer */
 
 footer {
-    width: 70%;
     height: 50px;
-    margin: 0 auto;;
     margin-top: 5px;
     margin-bottom: 10px;
     background-color: #8801FE;
